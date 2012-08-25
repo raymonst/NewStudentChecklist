@@ -9,4 +9,5 @@ New Student Checklist
 
 International Students
 - Visa / Appt.
+- I-20 Form
 

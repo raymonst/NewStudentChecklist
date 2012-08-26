@@ -1,0 +1,68 @@
+/* reset */
+
+html, body, address, blockquote, del, div, h1, h2, h3, h4, h5, h6, hr, ins, noscript, p, pre, dl, dt, dd, li, ol, ul, table, caption, colgroup, col, thead, tfoot, tbody, tr, td, th, form, button, fieldset, legend, label, select, optgroup, option, textarea, a, bdo, br, img, map, area, object, param, q, script, span, sub, sup, abbr, acronym, cite, code, del, dfn, em, ins, kbd, samp, strong, var, b, big, i, small, tt{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;}
+ol, ul{list-style:none;}
+th{text-align:left;}
+table{border-collapse:collapse;}
+
+
+
+/* global */
+
+/*
+@font-face 											{font-family:'Arvo';font-style:normal;font-weight:400;src: local('Arvo'), url('fonts/Arvo.ttf') format('truetype');}
+@font-face 											{font-family:'Varela Round';font-style:normal;font-weight:normal;src: local('Varela Round'), local('VarelaRound-Regular'), url('fonts/VarelaRound.ttf') format('truetype');}
+*/
+
+body 												{background:#242752;font:normal 16px/24px 'Varela Round', arial, sans-serif;color:#363636;}
+a:link,
+a:visited										    {color:#E7C254;text-decoration:none;}
+a:hover,
+a:visited:hover									    {color:#b1941f;text-decoration:none;}
+
+table td										    {}
+
+h1												    {font:normal 48px/60px 'Varela Round', helvetica, sans-serif;color:#222;padding:0 0 20px 0;margin:0 0 50px 0;letter-spacing:-1px;border-bottom: 1px dotted #ccc;}
+h2													{font:normal 32px/36px 'Varela Round', helvetica, sans-serif;color:#222;margin:0 0 15px 0;}
+h3													{font:normal 28px/32px 'Varela Round', helvetica, sans-serif;padding:3px 10px;margin:0 0 15px 0;border-left:10px solid #363636;}
+h4													{font-weight:normal;}
+
+p												    {margin:0 0 15px 0;}
+span												{color:#d53e20;}
+hr													{border-top:1px solid #ddd;margin:40px 0;}
+pre													{background:#eee;padding:10px 15px 15px 15px;margin:0 0 30px 0;font-family: Courier, monospace;font-size:12px;overflow:auto;}
+ul													{color:#666;padding:0;margin:0 0 40px 0;border-top:1px dotted #ccc;}
+ul li												{padding:10px 0;margin:0;border-bottom:1px dotted #ccc;}
+ul ul												{color:#999;margin:5px 0 10px 20px;border:0;display:none;}
+ul ul li											{border:0;}
+ul label											{font:normal 20px/24px 'Varela Round', arial, sans-serif;margin: 0 0 5px 0;}
+ul ul label											{font:normal 16px/20px 'Varela Round', arial, sans-serif;}
+
+ul p												{font-size:16px;line-height:20px;margin:5px 0 5px 0;}
+ul ul p												{font-size:13px;line-height:18px;margin:5px 0 0 0;}
+
+::selection 										{background:#fcf300; /* Safari */}
+::-moz-selection 									{background:#fcf300; /* Firefox */}
+
+
+
+/* container */
+
+#container											{background:#fff;width:940px;padding:40px 40px 60px 40px;margin:40px auto;border-bottom:10px solid #485969;}
+
+.list .section										{overflow:hidden;}
+.list .section-01									{width:860px;margin:0 20px 0 0;float:left;}
+.list .section-02									{width:60px;float:left;}
+.list-toggle										{background:url(../images/toggle.png) 0 0 no-repeat;width:44px;height:44px;margin:0 0 0 16px;display:block;text-indent:-9999em;}
+.list-toggle-expanded								{background:url(../images/toggle.png) 0 -44px no-repeat;}
+.list-item-done										{background:#eee;}
+
+
+
+/* misc */
+
+strong											    {font-weight:bold;}
+em													{font-style:italic;}
+strike												{text-decoration:line-through;}
+.cb													{clear:both;}
+.small												{font-size:12px;line-height:16px;}
